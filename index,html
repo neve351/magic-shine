@@ -1,0 +1,17 @@
+import { HeroSection } from "@/components/HeroSection";
+import { ProblemSection } from "@/components/ProblemSection";
+import { SolutionSection } from "@/components/SolutionSection";
+import { TargetAudienceSection } from "@/components/TargetAudienceSection";
+
+const Index = () => {
+  return (
+    <div className="min-h-screen">
+      <HeroSection />
+      <ProblemSection />
+      <SolutionSection />
+      <TargetAudienceSection />
+    </div>
+  );
+};
+
+export default Index;
